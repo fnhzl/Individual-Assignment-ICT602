@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#595959"
+    tools:context=".AboutUs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="ABOUT"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/profilepicture"
+        android:layout_width="139dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/profilepic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="FARHAN NASHRUL BIN GHAZALI"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020601856"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CS270"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T5CS2703B"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="FOLLOW ME ON"
+        android:textColor="#E91E63"
+        android:textSize="15dp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="139dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/instagramicon" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="139dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/twittericon" />
+
+    <ImageView
+        android:id="@+id/github"
+        android:layout_width="139dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/githubicon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Copyright @2020-2022 FNHZL,Inc."
+        android:textColor="#E91E63"
+        android:textSize="15dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="All rights reserved"
+        android:textColor="#E91E63"
+        android:textSize="15dp"
+        android:textStyle="bold"></TextView>
+
+</LinearLayout>
